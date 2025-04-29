@@ -1,0 +1,561 @@
+exporting HF_TOKEN
+exporting OPENAI_API_KEY
+
+running program >>>>>>>>>>>>>>>>>>>
+
+FILENAME: </outputs/arxiv_result_qwen_0.1_0to200_04272025_0012.json>
+{
+    "index": 99.16410256410256,
+    "context_token_count": 3057.9641025641026,
+    "lingua_token_count": 230.82051282051282,
+    "longlingua_token_count": 383.3128205128205,
+    "lingua2_token_count": 240.86153846153846,
+    "sc_token_count": 286.174358974359,
+    "compress_time_sc": 2.8458050622103306,
+    "compress_time_lingua": 1.8270534104309404,
+    "compress_time_longlingua": 1.525829393364107,
+    "compress_time_lingua2": 0.29783749089409145,
+    "bertscore_lingua": [
+        0.81172630297832
+    ],
+    "bertscore_longlingua": [
+        0.8089478480510223
+    ],
+    "bertscore_lingua2": [
+        0.8247336286764878
+    ],
+    "bertscore_sc": [
+        0.8029505827488044
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.39475671663612455,
+        "rouge2": 0.11822999083588102,
+        "rougeL": 0.21861666956105097,
+        "rougeLsum": 0.3063874679219531
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.37749607592291956,
+        "rouge2": 0.10573587721676725,
+        "rougeL": 0.20989317236578955,
+        "rougeLsum": 0.2939292410183004
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.41775577656617674,
+        "rouge2": 0.12442227963653557,
+        "rougeL": 0.22156852054710965,
+        "rougeLsum": 0.31984446203640055
+    },
+    "rouge_sc": {
+        "rouge1": 0.35629983715048225,
+        "rouge2": 0.08560185619240679,
+        "rougeL": 0.18995874319308417,
+        "rougeLsum": 0.26950023978064
+    },
+    "bleu_lingua": [
+        0.4127934672125405,
+        0.14589619220704647,
+        0.07138106881973291,
+        0.04042825985418431
+    ],
+    "bleu_longlingua": [
+        0.40147454022432555,
+        0.13465464300999058,
+        0.06532981356860922,
+        0.038291904859342245
+    ],
+    "bleu_lingua2": [
+        0.43661508353376427,
+        0.14613827428417656,
+        0.06436451024895122,
+        0.031726562240673384
+    ],
+    "bleu_sc": [
+        0.3763268616664104,
+        0.10878775019352835,
+        0.04510730553236629,
+        0.021279462148559948
+    ]
+}
+sc actual compress rate: 0.09358329574058827
+lingua2 actual compress rate: 0.07876532568174233
+
+
+
+FILENAME: </outputs/arxiv_result_qwen_0.3_0to200_04272025_0658.json>
+{
+    "index": 98.93877551020408,
+    "context_token_count": 3042.4030612244896,
+    "lingua_token_count": 693.3265306122449,
+    "longlingua_token_count": 884.4489795918367,
+    "lingua2_token_count": 777.4081632653061,
+    "sc_token_count": 822.3316326530612,
+    "compress_time_sc": 2.8137891554007575,
+    "compress_time_lingua": 2.2299768940916245,
+    "compress_time_longlingua": 1.6420105770871765,
+    "compress_time_lingua2": 0.2988968300371792,
+    "bertscore_lingua": [
+        0.8361602690146894
+    ],
+    "bertscore_longlingua": [
+        0.8361963447259397
+    ],
+    "bertscore_lingua2": [
+        0.8410651413153629
+    ],
+    "bertscore_sc": [
+        0.837037237018955
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.46337689848624497,
+        "rouge2": 0.18176993715880738,
+        "rougeL": 0.27480547951653655,
+        "rougeLsum": 0.36698850022847934
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.44632524713309374,
+        "rouge2": 0.16119724124694146,
+        "rougeL": 0.2542642071689299,
+        "rougeLsum": 0.3515395953840607
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.4782126009952732,
+        "rouge2": 0.1905697297959267,
+        "rougeL": 0.2715347220450914,
+        "rougeLsum": 0.37075787197228033
+    },
+    "rouge_sc": {
+        "rouge1": 0.4528136448935516,
+        "rouge2": 0.1660186343138545,
+        "rougeL": 0.2525996304776698,
+        "rougeLsum": 0.34922336746467236
+    },
+    "bleu_lingua": [
+        0.47343629529394554,
+        0.20381984326707422,
+        0.11792687282981594,
+        0.07647446253475526
+    ],
+    "bleu_longlingua": [
+        0.4611386645420771,
+        0.19076656928362992,
+        0.10357290783447157,
+        0.06320305635743231
+    ],
+    "bleu_lingua2": [
+        0.4921293930207478,
+        0.21004507083343293,
+        0.11426891237984427,
+        0.06805714016447012
+    ],
+    "bleu_sc": [
+        0.4581921808686346,
+        0.1869435892775481,
+        0.09724780130422939,
+        0.056216886103089496
+    ]
+}
+sc actual compress rate: 0.2702901673791025
+lingua2 actual compress rate: 0.2555243824111915
+
+
+
+FILENAME: </outputs/arxiv_result_qwen_0.5_0to200_04272025_1532.json>
+{
+    "index": 98.93877551020408,
+    "context_token_count": 3042.4030612244896,
+    "lingua_token_count": 1178.8265306122448,
+    "longlingua_token_count": 1413.2295918367347,
+    "lingua2_token_count": 1320.8265306122448,
+    "sc_token_count": 1334.7755102040817,
+    "compress_time_sc": 2.810015289096295,
+    "compress_time_lingua": 2.614118197519446,
+    "compress_time_longlingua": 1.7504826115767413,
+    "compress_time_lingua2": 0.30065891087977026,
+    "bertscore_lingua": [
+        0.848420827364435
+    ],
+    "bertscore_longlingua": [
+        0.8463047329260378
+    ],
+    "bertscore_lingua2": [
+        0.8510113519673445
+    ],
+    "bertscore_sc": [
+        0.8530109041199392
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.5004737663592486,
+        "rouge2": 0.22202282176751054,
+        "rougeL": 0.3077306664936689,
+        "rougeLsum": 0.40508353739459396
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.4815906048534156,
+        "rouge2": 0.1990677458523545,
+        "rougeL": 0.28478437657033323,
+        "rougeLsum": 0.38282297488660594
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.5150420658658412,
+        "rouge2": 0.24147241343360973,
+        "rougeL": 0.31633549520043014,
+        "rougeLsum": 0.4113582483708262
+    },
+    "rouge_sc": {
+        "rouge1": 0.5088271420937964,
+        "rouge2": 0.23525773031527658,
+        "rougeL": 0.3141856529948527,
+        "rougeLsum": 0.4070264657480657
+    },
+    "bleu_lingua": [
+        0.5071571608227338,
+        0.24380951345176352,
+        0.1506100167962847,
+        0.10222799516057288
+    ],
+    "bleu_longlingua": [
+        0.49459916327646625,
+        0.22456469421193667,
+        0.13157858317724352,
+        0.08354445827908172
+    ],
+    "bleu_lingua2": [
+        0.5288666900662692,
+        0.26173664493603993,
+        0.16265812605689656,
+        0.10941181151282223
+    ],
+    "bleu_sc": [
+        0.5179831360383025,
+        0.25301676931004513,
+        0.15812046514525877,
+        0.10821118708978793
+    ]
+}
+sc actual compress rate: 0.4387240886047717
+lingua2 actual compress rate: 0.4341392327158144
+
+
+
+FILENAME: </outputs/govreport_result_qwen_0.1_0to200_04272025_2037.json>
+{
+    "index": 99.5,
+    "context_token_count": 8946.12,
+    "lingua_token_count": 446.605,
+    "longlingua_token_count": 751.665,
+    "lingua2_token_count": 956.455,
+    "sc_token_count": 1043.04,
+    "compress_time_sc": 10.212566038900986,
+    "compress_time_lingua": 3.678368781809695,
+    "compress_time_longlingua": 4.33992095832713,
+    "compress_time_lingua2": 0.7093597164773382,
+    "bertscore_lingua": [
+        0.7810613721609115
+    ],
+    "bertscore_longlingua": [
+        0.7897712299227715
+    ],
+    "bertscore_lingua2": [
+        0.790815691947937
+    ],
+    "bertscore_sc": [
+        0.7833519583940506
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.25901568682237897,
+        "rouge2": 0.04184442860075397,
+        "rougeL": 0.1310254960101842,
+        "rougeLsum": 0.15887664445671526
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.26667706768928257,
+        "rouge2": 0.057632644091708075,
+        "rougeL": 0.1371745260752004,
+        "rougeLsum": 0.164900410626237
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.25632145699690617,
+        "rouge2": 0.06591580399908219,
+        "rougeL": 0.13562038242978494,
+        "rougeLsum": 0.16402211689935484
+    },
+    "rouge_sc": {
+        "rouge1": 0.2667660757463539,
+        "rouge2": 0.05201431960470315,
+        "rougeL": 0.13592842848082012,
+        "rougeLsum": 0.1694315104968945
+    },
+    "bleu_lingua": [
+        0.4712543567488423,
+        0.09095635449982169,
+        0.017434413216622015,
+        0.005909232419808449
+    ],
+    "bleu_longlingua": [
+        0.49547019029900885,
+        0.12109678201665738,
+        0.034905952431349065,
+        0.015624466092111688
+    ],
+    "bleu_lingua2": [
+        0.5157709395793328,
+        0.1446636606154235,
+        0.053228324186710134,
+        0.028075403291138536
+    ],
+    "bleu_sc": [
+        0.47621856240773475,
+        0.10465902334238654,
+        0.02558449896022722,
+        0.009559672647645338
+    ]
+}
+sc actual compress rate: 0.11659132674276668
+lingua2 actual compress rate: 0.10691282924888107
+
+
+
+FILENAME: </outputs/multinews_result_qwen_0.1_0to200_04282025_1031.json>
+{
+    "index": 99.5,
+    "context_token_count": 2606.81,
+    "lingua_token_count": 207.62,
+    "longlingua_token_count": 365.95,
+    "lingua2_token_count": 250.51,
+    "sc_token_count": 299.18,
+    "compress_time_sc": 11.713857995464933,
+    "compress_time_lingua": 4.868066200823523,
+    "compress_time_longlingua": 2.4944716440537014,
+    "compress_time_lingua2": 4.777858864725568,
+    "bertscore_lingua": [
+        0.7473696285486221
+    ],
+    "bertscore_longlingua": [
+        0.763841567337513
+    ],
+    "bertscore_lingua2": [
+        0.7719344365596771
+    ],
+    "bertscore_sc": [
+        0.7478120172023773
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.26681445336380033,
+        "rouge2": 0.03193238111090939,
+        "rougeL": 0.13111119818554764,
+        "rougeLsum": 0.15701823665853606
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.30399128245029255,
+        "rouge2": 0.04755967052701718,
+        "rougeL": 0.1453940093907576,
+        "rougeLsum": 0.17414679113666015
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.31631415156220016,
+        "rouge2": 0.05628704467979441,
+        "rougeL": 0.14825631218011665,
+        "rougeLsum": 0.1785825077419036
+    },
+    "rouge_sc": {
+        "rouge1": 0.25914913214041635,
+        "rouge2": 0.03078603178493949,
+        "rougeL": 0.12693360269344908,
+        "rougeLsum": 0.15286224106673543
+    },
+    "bleu_lingua": [
+        0.3511882170087299,
+        0.04495092380623476,
+        0.007681802456303172,
+        0.003299393207410014
+    ],
+    "bleu_longlingua": [
+        0.37300630156094217,
+        0.05967005936275785,
+        0.011282892797279776,
+        0.00366229595710295
+    ],
+    "bleu_lingua2": [
+        0.3864535331283852,
+        0.07056560210837637,
+        0.015327652157775394,
+        0.004770122003358646
+    ],
+    "bleu_sc": [
+        0.35338555054664944,
+        0.04131609999765886,
+        0.004763295808474835,
+        0.0009305945949369889
+    ]
+}
+sc actual compress rate: 0.11476862525462156
+lingua2 actual compress rate: 0.09609829638523713
+
+
+
+FILENAME: </outputs/multinews_result_qwen_0.3_0to200_04282025_1457.json>
+{
+    "index": 99.4070351758794,
+    "context_token_count": 2352.035175879397,
+    "lingua_token_count": 469.7386934673367,
+    "longlingua_token_count": 778.1809045226131,
+    "lingua2_token_count": 682.5628140703518,
+    "sc_token_count": 760.5879396984925,
+    "compress_time_sc": 3.2404074103468514,
+    "compress_time_lingua": 1.4100081235586885,
+    "compress_time_longlingua": 1.4682987220561947,
+    "compress_time_lingua2": 0.531081036138044,
+    "bertscore_lingua": [
+        0.7656013279703994
+    ],
+    "bertscore_longlingua": [
+        0.7772164006329062
+    ],
+    "bertscore_lingua2": [
+        0.7874787605587562
+    ],
+    "bertscore_sc": [
+        0.7824766543043319
+    ],
+    "rouge_lingua": {
+        "rouge1": 0.304348489399099,
+        "rouge2": 0.04418122236726854,
+        "rougeL": 0.14437915561129114,
+        "rougeLsum": 0.17261606878014737
+    },
+    "rouge_longlingua": {
+        "rouge1": 0.3229695019857794,
+        "rouge2": 0.05770914781497217,
+        "rougeL": 0.1527594542560771,
+        "rougeLsum": 0.18250262407031892
+    },
+    "rouge_lingua2": {
+        "rouge1": 0.3496291582132277,
+        "rouge2": 0.08005534316115036,
+        "rougeL": 0.16404515957609106,
+        "rougeLsum": 0.19315585685683362
+    },
+    "rouge_sc": {
+        "rouge1": 0.33628107000250945,
+        "rouge2": 0.06587356626577079,
+        "rougeL": 0.15876054864793698,
+        "rougeLsum": 0.19005375179053358
+    },
+    "bleu_lingua": [
+        0.3736300008752285,
+        0.05652626930545418,
+        0.010159099504498724,
+        0.00350357108929098
+    ],
+    "bleu_longlingua": [
+        0.3926741300876255,
+        0.07033450796312132,
+        0.014371005740671017,
+        0.004692550503786421
+    ],
+    "bleu_lingua2": [
+        0.42479297536195787,
+        0.09577361919870209,
+        0.026815171434705642,
+        0.009874979946744133
+    ],
+    "bleu_sc": [
+        0.4015414972515951,
+        0.07886176950774074,
+        0.018297467140475934,
+        0.006102691303241806
+    ]
+}
+sc actual compress rate: 0.323374389761887
+lingua2 actual compress rate: 0.29020093792396195
+
+
+
+FILENAME: </outputs/hotpot_qa_result_qwen_0.2_0to300_04272025_1542.json>
+{
+    "index": 149.5,
+    "context_token_count": 1332.81,
+    "lingua_token_count": 224.35,
+    "longlingua_token_count": 373.86333333333334,
+    "lingua2_token_count": 278.6433333333333,
+    "sc_token_count": 280.41333333333336,
+    "compress_time_sc": 1.6055890382671107,
+    "compress_time_lingua": 0.49715485303429885,
+    "compress_time_longlingua": 0.712030769152722,
+    "compress_time_lingua2": 0.12755361311292895,
+    "longbench_f1_lingua": 0.1968571410443165,
+    "longbench_f1_longlingua": 0.26649394050633646,
+    "longbench_f1_lingua2": 0.3574650224976311,
+    "longbench_f1_sc": 0.26331832679683437
+}
+sc actual compress rate: 0.21039257908729178
+lingua2 actual compress rate: 0.20906455783895178
+
+
+
+FILENAME: </outputs/hotpot_qa_result_qwen_0.5_0to300_04272025_1614.json>
+{
+    "index": 149.5,
+    "context_token_count": 1332.81,
+    "lingua_token_count": 531.1066666666667,
+    "longlingua_token_count": 691.2066666666667,
+    "lingua2_token_count": 665.6633333333333,
+    "sc_token_count": 655.4966666666667,
+    "compress_time_sc": 1.5598993897973559,
+    "compress_time_lingua": 0.7093641049073388,
+    "compress_time_longlingua": 0.7730802452828114,
+    "compress_time_lingua2": 0.1109174965764396,
+    "longbench_f1_lingua": 0.24711324282052105,
+    "longbench_f1_longlingua": 0.2910955019073945,
+    "longbench_f1_lingua2": 0.40592296603751726,
+    "longbench_f1_sc": 0.29833510485773745
+}
+sc actual compress rate: 0.49181553759850744
+lingua2 actual compress rate: 0.49944353158614757
+
+
+
+FILENAME: </outputs/longbench_2wikimqa_e_result_qwen_0.2_0to300_04272025_1812.json>
+{
+    "index": 149.3030303030303,
+    "context_token_count": 8718.89898989899,
+    "lingua_token_count": 1352.5151515151515,
+    "longlingua_token_count": 1186.3905723905723,
+    "lingua2_token_count": 1827.6296296296296,
+    "sc_token_count": 1885.026936026936,
+    "compress_time_sc": 9.462742108360924,
+    "compress_time_lingua": 2.570938844428953,
+    "compress_time_longlingua": 4.446013770931673,
+    "compress_time_lingua2": 0.6167383549981108,
+    "longbench_f1_lingua": 0.26398657815066484,
+    "longbench_f1_longlingua": 0.2793065594536183,
+    "longbench_f1_lingua2": 0.3488081876970767,
+    "longbench_f1_sc": 0.27866182638909914
+}
+sc actual compress rate: 0.2162001117584658
+lingua2 actual compress rate: 0.2096170206521458
+
+
+
+FILENAME: </outputs/longbench_2wikimqa_e_result_qwen_0.5_0to300_04272025_2104.json>
+{
+    "index": 149.3030303030303,
+    "context_token_count": 8718.89898989899,
+    "lingua_token_count": 2836.818181818182,
+    "longlingua_token_count": 4598.949494949495,
+    "lingua2_token_count": 4375.1144781144785,
+    "sc_token_count": 4351.717171717171,
+    "compress_time_sc": 9.586403041457137,
+    "compress_time_lingua": 4.444537525479165,
+    "compress_time_longlingua": 6.166277548926961,
+    "compress_time_lingua2": 0.7400625481298475,
+    "longbench_f1_lingua": 0.3013573080492272,
+    "longbench_f1_longlingua": 0.3210164995854712,
+    "longbench_f1_lingua2": 0.4682064542425761,
+    "longbench_f1_sc": 0.34925531457721587
+}
+sc actual compress rate: 0.49911315370882475
+lingua2 actual compress rate: 0.5017966698757643
+
+
+
